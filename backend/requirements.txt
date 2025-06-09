@@ -1,0 +1,16 @@
+fastapi==0.95.1
+uvicorn[standard]==0.22.0
+httpx==0.24.1
+pydantic==1.10.7
+python-dotenv==1.0.0
+email-validator==2.0.0
+pyyaml==6.0
+python-multipart==0.0.6
+sqlalchemy==2.0.15
+asyncpg==0.27.0
+psycopg2-binary==2.9.6
+alembic==1.11.1
+requests==2.31.0
+
+-e /app/core
+-e /app/vexa_client
